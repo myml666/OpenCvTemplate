@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itfitness.templatedemo.MainActivity">
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_one"
+                    android:src="@drawable/mv"
+                    android:clickable="true"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp" />
+                <ImageView
+                    android:id="@+id/img_one_dst"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_two"
+                    android:src="@drawable/mv2"
+                    android:clickable="true"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp" />
+                <ImageView
+                    android:id="@+id/img_two_dst"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_three"
+                    android:src="@drawable/mv3"
+                    android:clickable="true"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp" />
+                <ImageView
+                    android:id="@+id/img_three_dst"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
